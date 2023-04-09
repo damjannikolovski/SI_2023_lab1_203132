@@ -1,0 +1,16 @@
+1. Инсталирање Git и креирање профил на Github
+2. На ликот и се менува името во master
+3. Во делот New се креира репозиториум и се внесува име за него
+4. Со командата mkdir SI_2023_lab1_203132 во command promt се креира директориум,потоа влегуваме во директориумот со cd SI_2023_lab1_203132 и на крај со командата git init го поставуваме Git директориумот
+5. Поврзувањето го правиме на начин што во command prompt ја внесуваме командата git remote add origin https://github.com/damjannikolovski/SI_2023_lab1_203132, каде што ја копираме врската од Github каде што ни е создаден репозиториумот
+6. Во една текст уредувач како Notepad внесуваме некои информации како име презиме и број на индекс и потоа го зачувуваме во директориумот на локалниот репозиториум. Потоа внесуваме командата git add README.txt во command promt и после тоа ги комитираме со командата git commit -m "Initial commit"
+7. git add SILab1.java 
+git commit -m "Add java class"
+8. git pull
+git fetch origin 
+git chechout master
+После овие команди во .java фајлот ги поправаме грешките
+git add.
+git commit -m "Fixed errors"
+git push origin master
+
